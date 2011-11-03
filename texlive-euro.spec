@@ -1,3 +1,9 @@
+# revision 22191
+# category Package
+# catalog-ctan /macros/latex/contrib/euro
+# catalog-date 2006-09-12 14:13:09 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-euro
 Version:	1.1
 Release:	1
@@ -48,6 +54,7 @@ added easily. The package uses the fp package to do its sums.
 #- source
 %doc %{_texmfdistdir}/source/latex/euro/euro.dtx
 %doc %{_texmfdistdir}/source/latex/euro/euro.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ added easily. The package uses the fp package to do its sums.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
