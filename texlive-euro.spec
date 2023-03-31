@@ -1,6 +1,6 @@
 Name:		texlive-euro
 Version:	22191
-Release:	1
+Release:	2
 Summary:	Provide Euro values for national currency amounts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/euro
