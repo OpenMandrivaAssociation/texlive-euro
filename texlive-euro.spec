@@ -3,7 +3,7 @@ Version:	22191
 Release:	2
 Summary:	Provide Euro values for national currency amounts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/euro
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/euro
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/euro.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/euro.doc.r%{version}.tar.xz
